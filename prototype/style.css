@@ -1,0 +1,54 @@
+/*HTML elementt stylers*/
+
+body {
+        background-image: url('graphics/background.jpg');
+        /*background:black;*/
+        background-repeat: repeat-y;
+        color: white;
+}
+
+h1 {
+        /*font-family: 'Aguafina Script',serif;*/
+        font-family: VT323;
+        font-size: 40px;
+        text-align: center;    
+        position: fixed;   
+}
+
+/* Classes*/
+
+.img {
+        float:left;
+        padding-right: 25px;
+        padding-bottom: 25px;
+}
+
+.textright {
+           margin-left: 300px;
+           margin-right: 100px;
+           margin-top: 38px;
+           font-family: 'Oswald',serif;
+           /*border-left: 5px solid #444444;
+           /*(padding-left: 10px;*/
+            }
+
+.menu {
+        float:left;
+        font-family: 'Ubuntu',serif;
+        /*position: absolute;*/
+        position:fixed;
+        top: 140px;
+        left:20px;
+        font-size: 15px;
+        width: 230px;        
+        text-align: right;
+}
+
+.title {
+        position:fixed;
+        top: 20px;
+        left:20px;
+        right:300px;
+
+        border:10px ddotted indianred;
+}
