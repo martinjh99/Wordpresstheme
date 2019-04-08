@@ -1,10 +1,9 @@
-/*HTML elementt stylers*/
 
 body {
-        background-image: url('graphics/background.jpg');
-        /*background:black;*/
-        background-repeat: repeat-y;
-        color: white;
+
+        background-image: (url "images/background.jpg");
+        background: linear-gradient(to right, blue 5%,black 20%);
+        color:white;
 }
 
 h1 {
@@ -13,6 +12,7 @@ h1 {
         font-size: 40px;
         text-align: center;    
         position: fixed;   
+        border:10px ddotted indianred;
 }
 
 /* Classes*/
@@ -50,5 +50,5 @@ h1 {
         left:20px;
         right:300px;
 
-        border:10px ddotted indianred;
+        
 }
